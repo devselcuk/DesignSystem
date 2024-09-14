@@ -8,6 +8,8 @@
 import SwiftUI
 
 public struct GrayBorderedButtonStyle: ButtonStyle {
+    
+    public init(){}
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
