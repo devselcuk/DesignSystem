@@ -7,6 +7,7 @@
 import SwiftUI
 
 public struct UnderlinedButtonStyle: ButtonStyle {
+    public init() {}
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.footnote)
