@@ -10,7 +10,7 @@ public struct UnderlinedTextFieldStyle: TextFieldStyle {
     var lineColor: UIColor = .label
     var lineWidth: CGFloat = 1
     
-    init() {}
+    public init() {}
     
     public func _body(configuration: TextField<Self._Label>) -> some View {
         VStack(alignment: .leading) {
