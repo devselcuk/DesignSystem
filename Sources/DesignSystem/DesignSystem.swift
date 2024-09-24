@@ -27,6 +27,17 @@ import SwiftUI
         }
         .buttonStyle(GrayBorderedButtonStyle())
         .padding()
+        
+        Button {
+        }label: {
+        
+            Label(
+                title: { Text("Continue with Microsoft") },
+                icon: { }
+            )
+        }
+        .buttonStyle(BlackFilledRoundedButtonStyle())
+        .padding()
     }
 
 

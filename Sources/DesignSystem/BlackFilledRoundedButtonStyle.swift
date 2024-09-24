@@ -16,9 +16,9 @@ public struct BlackFilledRoundedButtonStyle: ButtonStyle {
             .frame(maxWidth: .infinity)
             .bold()
             .background(content: {
-                Color(.label)
+                Color(.ctaBackground)
             })
-            .foregroundStyle(.background)
+            .foregroundStyle(Color(.ctaForeground))
             .clipShape(Capsule())
             .opacity(configuration.isPressed ? 0.2 : 1)
             .labelStyle(CenteredLabelStyle(spacing: 16))

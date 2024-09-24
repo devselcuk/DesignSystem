@@ -16,10 +16,10 @@ public struct GrayBorderedButtonStyle: ButtonStyle {
             .frame(maxWidth: .infinity)
             .bold()
             .background(content: {
-                Color(.ctaBackground)
+                Color(.clear)
             })
             .overlay(
-                Capsule().stroke(Color.gray, lineWidth: 1)
+                Capsule().stroke(Color(.border), lineWidth: 2)
             )
             .clipShape(Capsule())
             .opacity(configuration.isPressed ? 0.2 : 1)
