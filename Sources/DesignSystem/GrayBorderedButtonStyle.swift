@@ -7,20 +7,7 @@
 
 import SwiftUI
 
-enum FontName: String, CaseIterable {
-    case poppinsBlack = "Poppins-Black"
-    case poppinsMedium = "Poppins-Medium"
-    case poppinsRegular = "Poppins-Regular"
-    case poppinsSemiBold = "Poppins-SemiBold"
-    case poppinsThin = "Poppins-Thin"
-    case poppinsExtraLight = "Poppins-ExtraLight"
-    case poppinsLight = "Poppins-Light"
-    case poppinsBold = "Poppins-Bold"
-    case poppinsExtraBold = "Poppins-ExtraBold"
-}
-
 public struct GrayBorderedButtonStyle: ButtonStyle {
-    
     public init(){}
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label

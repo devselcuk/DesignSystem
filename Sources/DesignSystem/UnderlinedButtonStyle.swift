@@ -10,8 +10,8 @@ public struct UnderlinedButtonStyle: ButtonStyle {
     public init() {}
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.footnote)
-            .foregroundStyle(.blue)
+            .font(DSFont.callout.font)
+            .foregroundStyle(Color(.raspberry))
             .underline()
     }
 }
