@@ -14,7 +14,7 @@ public struct BlackFilledRoundedButtonStyle: ButtonStyle {
         configuration.label
             .padding()
             .frame(maxWidth: .infinity)
-            .bold()
+            .font(DSFont.ctaButton.font)
             .background(content: {
                 Color(.ctaBackground)
             })
